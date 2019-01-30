@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 1fr 5fr;
+      grid-template-columns: 1fr 5fr;
+  width: 100%;
+  padding: 20px 0;
+}
+
+header, footer {
+  background: url("bg.png");
+  background-repeat: no-repeat;
+}
+
+.logo {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logoTitle {
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+}
+
+.logoTitle .title {
+  font-size: 2.1em;
+  font-weight: bolder;
+}
+
+.logoTitle .subTitle {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr;
+      grid-template-columns: 1fr 5fr;
+}
+
+main .left {
+  background: #2e659d;
+}
+
+main .left img {
+  width: 100%;
+}
+
+main .right {
+  display: -ms-grid;
+  display: grid;
+}
+
+main .right .top,
+main .right .bottom {
+  padding: 50px;
+}
+
+.field {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 22px;
+}
+
+.field .fieldName {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.field .fieldName img {
+  width: 20px;
+}
+
+.field .fieldDesc {
+  color: #414040;
+}
+
+.bottom h3 {
+  text-transform: uppercase;
+  color: #0e77bd;
+}
+
+.bottom .qrcode {
+  float: right;
+  margin-right: 50px;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+footer img {
+  width: 20px;
+}
+
+footer a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
